@@ -23,8 +23,8 @@ def times_iterator(number_of_times)
   number_of_times.times{
     puts phrase
   }
-  
 end
+times_iterator(10)
 
 def while_iterator(number_of_times)
   # code your solution here using the "while" keyword
