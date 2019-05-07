@@ -13,11 +13,11 @@ def loop_iterator(number_of_times)
   loop do
     puts phrase
     i += 1
-    if i == number_of_times
-    
-  
+    break if i == number_of_times
+  end
 end
 
+loop_iterator(3)
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
