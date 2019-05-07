@@ -35,12 +35,12 @@ def while_iterator(number_of_times)
   counter += 1
   end
 end
-while_iterator(10)
 
 def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
   phrase = "Welcome to Flatiron School's Web Development Course!"
+  
 
 end
 
