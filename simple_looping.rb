@@ -12,8 +12,9 @@ def loop_iterator(number_of_times)
   i = 0
   loop do
     puts phrase
-    i += 10
-    if
+    i += 1
+    if i == number_of_times
+    
   
 end
 
